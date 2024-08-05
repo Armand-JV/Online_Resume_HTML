@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+            background-color: #abbaba;
+            color: #000;
+        }
+        nav{
+            text-align: flex;
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+            padding: 10px;
+            background-color: #abbaba;
+            color: #000;
+            margin-right: 0px;
+            margin-left: 0px;
+            margin-bottom: 30px;
+        }
+        .text_right{
+            text-align: right;
+            gap: 10px;
+        }
+        .text_left{
+            text-align: left;
+            gap: 10px;
+        }
+        .button{
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            background:#2d3333;
+            color: #abbaba;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="text_left">
+            <a href="index.html" class="button">Home</a>
+        </div>
+        <div class="text_right">
+            <a href="./public/contact.html" class="button">Contact Me</a>
+            <a href="./public/about.html" class="button">About Me</a>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Welcome to my resume</h1>
+        <img height="200" src="./assets/images/CV foto crop.jpg" alt="">
+        <p>My name is Armand. I am 19 years old born in 2005-04-12. </p>
+        <div class="section" id="summary">
+            <h2>Summary</h2>
+            <p>Passionate and dedicated computer science student with a focus on full-stack web development. Experienced in HTML5 and eager to expand skills in web and game development. Seeking opportunities to contribute to dynamic projects and grow as a professional.</p>
+        </div>
+        <div class="section" id="education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Bachelor of Computing</strong>, <a href="https://www.belgiumcampus.ac.za/">Belgium Campus iTversity</a>, 2024-2028 </li>
+            </ul>
+        </div>
+        <div class="section" id="experience">
+            <h2>Work Experience</h2>
+            <ul>
+                <li>
+                    <strong>Self-Employed Web Developer</strong>, 2024 - Present
+                    <ul>
+                        <li>Developed personal website using HTML5</li>
+                        <li>Will be working on various freelance web development projects</li>
+                        
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="section" id="skills">
+            <h2>Expertise</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>Web Development</li>
+                <li>Full-Stack Development (in progress)</li>
+                <li>Game Development with C# (upcoming)</li>
+            </ul>
+        </div>
+        <div class="section" id="awards">
+            <h2>Awards & Certifications</h2>
+            <ul>
+                <li>National Senior Certificate -2023</li>
+                <li>Bachelor of Computing -In Progress</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <div class="header_right">
+        <small class>-Armand Johannes Vermeulen</small>
+        </div>
+    </footer>
+</body>
+</html>
